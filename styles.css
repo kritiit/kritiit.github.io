@@ -4,6 +4,8 @@ background-color: black;
 }
 h1{font-size:20px;}
 p{font-size:12px; color: green;}
+ol {list-style-type: lower-alpha;}
+ul {list-style-type: square;}
 .divtag {
 border-style: dotted;
 border-width: 2px;
