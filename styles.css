@@ -1,11 +1,10 @@
 body {
 color: white;
-background-color: black;
+background-color: lightpink;
 }
-h1{font-size:20px;}
-p{font-size:12px; color: green;}
-ol.a {list-style-type: lower-alpha;}
-ul.b {list-style-type: square;}
+h1{font-size:50px;}
+p{font-size:25px; color: indigo;}
+
 .divtag {
 border-style: dotted;
 border-width: 2px;
