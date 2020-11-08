@@ -5,10 +5,11 @@ background-color: lightpink;
 
 h1 {
   font-size:50px;
-  border-style: dotted solid double dashed;
+  border-style: dotted;
 }
 
-p{font-size:25px; color: indigo;}
+p {
+  font-size:25px; color: DarkSlateGray;}
 }
 
 .divtag {
