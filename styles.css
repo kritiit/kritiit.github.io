@@ -9,8 +9,14 @@ h1 {
 }
 
 p {
-  font-size:25px; color: DarkSlateGray;}
+	font-size:25px; color: DarkSlateGray;
+	border-radius: 50px;
+	background: Azure;
+	padding: 20px;
+	width: 350px;
+	height: 50px;
 }
+
 
 .divtag {
 border-style: dotted;
