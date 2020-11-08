@@ -4,23 +4,64 @@ background-color: lightpink;
 }
 
 h1 {
-  font-size:50px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 50px;
   border-style: dotted;
+  border-width: 5px;
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 p {
-	font-size:25px; color: DarkSlateGray;
+	text-align: center;
+	font-size: 25px; color: DarkSlateGray;
 	border-radius: 50px;
 	background: Azure;
-	padding: 20px;
+	padding: 10px;
 	width: 350px;
-	height: 50px;
+	height: 25px;
+	margin: 10px;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
 }
 
+a:link, a:visited {
+  font-size: 20px;
+  margin: 10px;
+  background-color: DarkGray;
+  color: white;
+  padding: 30px 25px;
+  text-align: center;
+  width: 150px;
+	height: 25px;
+	margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.divtag {
-border-style: dotted;
-border-width: 2px;
-width: 100px;
-height: 100px;
+a:hover, a:active {
+  margin: 10px;
+  background-color: hotpink;
+  text-align: center;
+  width: 150px;
+	height: 25px;
+	margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  margin: 15px;
+	border-radius: 20px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
