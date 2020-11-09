@@ -1,20 +1,36 @@
 body {
 	color: black;
 	background-color: Azure;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1 {
-  	font-size: 50px;
-  	letter-spacing: 3px;
+	font-size: 50px;
+	letter-spacing: 3px;
 	text-align: center;
-  	margin: 50px;
-  	border-style: dotted;
-  	border-width: 5px;
-  	padding: 20px;
-  	border-bottom-left-radius: 25px;
-  	border-bottom-right-radius: 25px;
-  	border-top-left-radius: 25px;
-  	border-top-right-radius: 25px;
+	margin: 50px;
+	border-style: dotted;
+	border-width: 5px;
+	padding: 20px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	margin-left: 270px;
+	display: inline-block;
 }
 
 p {
@@ -44,11 +60,13 @@ a:link, a:visited {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	text-decoration: none;
+	border-radius: 25px;
 }
 
 a:hover, a:active {
-	margin: 10px;
 	background-color: hotpink;
+	border-radius: 25px;
 	text-align: center;
 	width: 150px;
 	height: 25px;
