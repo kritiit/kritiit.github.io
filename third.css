@@ -68,7 +68,7 @@ p {
 	margin: 40px;
 }
 
-a:link, a:visited {
+#main_nav a:link, a:visited {
 	border-radius: 25px;
 	font-size: 20px;
 	background-color: DarkGray;
@@ -84,9 +84,25 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-a:hover, a:active {
+#main_nav a:hover, a:active {
 	margin: 10px;
 	background-color: red;
+	text-align: center;
+	width: 200px;
+	height: 25px;
+	margin: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+}
+
+#nav a:link, a:visited {
+	border-radius: 25px;
+	font-size: 20px;
+	background-color: DarkGray;
+	color: black;
+	padding: 30px 25px;
 	text-align: center;
 	width: 200px;
 	height: 25px;
