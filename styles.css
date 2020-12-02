@@ -1,0 +1,197 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Abel', sans-serif;
+}
+
+.container-fluid {
+	overflow: hidden;
+}
+
+.header {
+	padding: 40px;
+	text-align: center;
+	background-color: DimGrey;
+	color: white;	
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+span { 
+	float: left;
+	text-align: left;
+}
+
+.col-sm-8, .col-sm-4 {
+	padding: 0px;
+}
+
+.carousel {
+    background-color: grey;
+	overflow: hidden;
+	min-height: 80vh;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    min-height: 80vh;
+	overflow: hidden;
+}
+
+.picture {
+    background: url(lilijadino.png);
+    background-size: 100% 100%;
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.textlilianddino {
+	background-color: #A0A0A0;
+	color: white;
+	text-align: center;
+	width: 100%;
+    height: 100%;
+	justify-content: center;
+	overflow: hidden;
+}
+
+p {
+	font-size: 25px;
+	padding-top: 20%;
+}
+
+h2 {
+	font-size: 40px;
+	padding-top: 15%;
+}
+
+.cssanimation {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	color: white;
+	font-size: 120px;
+	text-shadow: 2px 2px grey;
+	display: flex;
+	justify-content: center;
+	font-family: 'Dawning of a New Day', cursive;
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { 
+	display: inline-block;
+	text-align: center;
+}
+
+.fly span { animation-name: fly }
+@keyframes fly {
+    0% {
+        transform: translate(0px, 80px);
+        opacity: 0
+    }
+    50% {
+        transform: translate(10px, -50px);
+        animation-timing-function: ease-in-out
+    }
+}
+
+.footer {
+	background-color: DimGrey;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+legend {
+	display: block;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.form {
+	background: url(lili1.jpg);
+	background-color: #A0A0A0;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+
+.submit {
+	padding-bottom: 5%;
+	margin: 8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+input {
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+input[type=submit] {
+	background-color: dimgrey;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: Grey;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
